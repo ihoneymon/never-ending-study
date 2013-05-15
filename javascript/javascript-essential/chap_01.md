@@ -24,7 +24,7 @@
 
 ## 03. 예제 테스트를 위한 간단한 준비
 
-``` javascript test.js
+```javascript
 $(document).function() {
 	$.ajax({
 		url : "",
