@@ -57,7 +57,7 @@
 ### 08 함수functions
 * 함수 리터럴은 함수값을 정의
 * 함수 리터럴은 이름을 가질 수 있는데 이 이름은 자신읠 재귀적으로 호출할 때 사용할 수 있다.
-* 
+
 ```javascript
 function(paramA, paramB) {
     return paramA + paramB;
