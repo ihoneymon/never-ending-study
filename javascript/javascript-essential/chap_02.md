@@ -64,3 +64,7 @@ function(paramA, paramB) {
 }
 ```
 
+### 참고사항
+* [javascript syntax](http://en.wikipedia.org/wiki/JavaScript_syntax) - wikipedia
+* [Code Conventions for the JavaScript Programming Language](http://javascript.crockford.com/code.html)
+* [Google JavaScript style guide](http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml)
