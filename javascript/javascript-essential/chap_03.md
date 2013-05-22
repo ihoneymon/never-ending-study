@@ -48,7 +48,7 @@ var flight = {
 		city : "Los Angeles"
 	}
 };
-```'
+```
 
 ### 02 속성값 읽기
 * 속성의 값 읽는 방법
