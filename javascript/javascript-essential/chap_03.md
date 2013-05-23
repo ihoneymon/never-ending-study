@@ -115,6 +115,7 @@ flight.equipment = {
 * 객체 생성시 해당 객체의 프로토타입이 될 객체 선택 가능
 * 예제 : Object 객체에 create 메소드 추가
 	* create : 넘겨받은 객체를 프로토타입으로 하는 새로운 객체를 생성
+	
 	```javascript
 	if (typeof Object.create !== 'function') {
 		Object.create = function (o) {
@@ -125,6 +126,7 @@ flight.equipment = {
 	}
 	var another_sooge = Object.create(stooge);
 	```
+	
 * 프로토타입을 연결해도 객체에는 영향을 끼치지 않음
 * 프로토타입 연결은 오로지 객체의 속성을 읽을 때만 사용 
 * 프로토타입 관계는 동적(**프로토타입 체인**)
