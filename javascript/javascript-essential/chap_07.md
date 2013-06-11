@@ -17,18 +17,23 @@
     > 문자열에서 특정 내용을 찾거나 대체 또는 발췌하는데 사용
 * 정규 표현식 사용 메소드
     * regexp.exec
-    ```
+    
+    ```javascript
     var myRe=/d(b+)(d)/ig;
     var myArray = myRe.exec("cdbBdbsbz");
     ```
+    
     * regexp.test
-    ```
+    
+    ```javascript
     var myRe=/d(b+)(d)/ig;
     var checked = myRe.test("cdbBdbsbz");
     console.log("checked = " + checked);
     ```
+    
     * string.match
-    ```
+    
+    ```javascript
     // 부합되는 것들을 모두 찾아낸다.
     var str = "ABCdEFgHiJKL";
     var myResult = str.match(/[a-z]/g );
@@ -45,16 +50,19 @@
         console.log(cnt +":" + myResult[cnt]);
     }
     ```
+    
     * string.replace
     * string.search
     * spring.split
-    ```
+    
+    ```javascript
     var str = "ABCdEFgHiJKL";
     var myResult = str.split(/[a-z]/g , 3);
     for(var cnt = 0 ; cnt < myResult.length; cnt++){
         console.log(cnt +":" + myResult[cnt]);
     }
     ```
+    
     * 8장에서 설명!
     
 * **같은 문자열에 대해 반복해서 연산을 수행할 때 주목할만한 성능상의 이점이 있다.**
