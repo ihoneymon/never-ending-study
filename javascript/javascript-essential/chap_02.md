@@ -9,12 +9,14 @@
     * 블록 주석 : /* */
     * 한줄 주석 : //
     * 주석을 달 때는 항상 코드에 대해서 정확히 설명
+    * 한줄 주석 권장
+        
     ```javascript
     /*
         var rm_a a /a*/.match(5);
     */
     ```
-    * 한줄 주석 권장
+
    
 ### 02 이름names
 * 예약어 숙지 필요함
@@ -55,9 +57,14 @@
 ### 08 함수functions
 * 함수 리터럴은 함수값을 정의
 * 함수 리터럴은 이름을 가질 수 있는데 이 이름은 자신읠 재귀적으로 호출할 때 사용할 수 있다.
+
 ```javascript
 function(paramA, paramB) {
     return paramA + paramB;
 }
 ```
 
+### 참고사항
+* [javascript syntax](http://en.wikipedia.org/wiki/JavaScript_syntax) - wikipedia
+* [Code Conventions for the JavaScript Programming Language](http://javascript.crockford.com/code.html)
+* [Google JavaScript style guide](http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml)
