@@ -19,7 +19,14 @@ About Openshift
 	* 사용자의 로그인, DNS, 애플리케이션 상태, 애플리케이션에 대한 협업 관리
 	* 사용자는 브로커에 직접 접근할 수 없음
 	* Broker와 REST API를 이용하여 웹콘솔, CLI tools 혹은 JBoss tools를 통해 통신
+	   - [Client Tools](https://www.openshift.com/developers/tools)
+    	   - [Web Console](https://openshift.redhat.com/app/console/applications)
+    	   - [Install OpenShift RHC Client Tools](https://www.openshift.com/developers/rhc-client-tools-install)
+    	   - [JBoss DevStudio](https://devstudio.jboss.com/download/6.x.html)
+    	   - [REST API](https://access.redhat.com/site/documentation/OpenShift/?locale=en-US)
+	   
 * **Catridges**
+    * [Catridge Author's Guide](https://www.openshift.com/developers/cartridge-authors-guide)
 	* 사용자 애플리케이션에 필요한 기능들을 제공
 	* JBoss, PHP, Ruby 등 많은 언어 카트리지 지원
 	* Postgres, MySQL, MongoDB 등 많은 DB 카트리지 지원
@@ -96,6 +103,7 @@ About Openshift
 ### 4. 애플리케이션에서 사용되는 디스크립터 설명Describing an application using descriptiors
 > 애플리케이션 디스크립터는 애플리케이션 구축하는 방법을 확정적인 방법을 제공한다. 디스크립터는 이름, 버전, 의존성 등에 대한 속성들과 애플리케이션의 아키텍쳐에 대한 내용을 포함하는 YAML 파일이다. 브로커/컨트롤러는 애플리케이션을 생성하거나 변경하는데 디스크립터 YAML을 이용할 수 있으며 수많은 유틸성 REST API는 디스크립터의 필드를 조작할 수 있다. 
 ![Application Descriptor](https://www.openshift.com/sites/default/files/images/descriptors_and_gears.png)
+
 > 디스크립터를 통해 애플리케이션을 구축할 때, 브로커는 디스크립터를 읽고 의존성을 해결한다. 각 의존성은 카트리지에 포함된 카트리지 디스크립터의 의존성까지 포함한다. 애플리케이션 디스크립터와 유사하게, 카트리지 디스크립터는 카트리지에 정의된 컴포넌트와 기능을 지원한다.
 > 애플리케이션과 카트리지 디스크립터를 사용하면, 브로커는 함께사용할 컴포넌트를 조직하고 사용할 기어들을 결정한다. 
 ******
@@ -261,7 +269,7 @@ Group override:
 * UnixUser : Cloud-SDK 측면의 유닉스 사용자 노드 재현
 
 #### Descriptor Elaboration
-> 디스크립터 동화는 기본적으로 2단계를 거친다. 단계들은 연결되어 있다.
+> 디스크립터가 동화되는 단계는 연계된 2단계를 거친다.
 
 * 모든 의존성을 해결하고 컴포넌트 인스턴스와 그룹 인스턴스의 실행 구조체를 생성
 * 커넥션과 그룹 오버라이드Group override를 바탕으로 그룹들 연결
