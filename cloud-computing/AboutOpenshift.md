@@ -13,7 +13,7 @@ About Openshift
 ## OpenShift Origin
 
 ## Platform Overview
-* ![](https://www.openshift.com/sites/default/files/images/platform_overview_1_0.png)
+![](https://www.openshift.com/sites/default/files/images/platform_overview_1_0.png)
 
 * **Broker** : 애플리케이션 관리 활동의 접점
 	* 사용자의 로그인, DNS, 애플리케이션 상태, 애플리케이션에 대한 협업 관리
@@ -67,7 +67,7 @@ About Openshift
 * 노트
     > 조만간, 프레임워크대 임베디드 카트리지의 개념은 사라질 계획. 함께 확장되는 형태로 발전해갈 것임
 
-******
+*****
 
 ## 사용자 기본 동작Primary user interactions
 ### 1. Simple Application Creation
@@ -106,7 +106,8 @@ About Openshift
 
 > 디스크립터를 통해 애플리케이션을 구축할 때, 브로커는 디스크립터를 읽고 의존성을 해결한다. 각 의존성은 카트리지에 포함된 카트리지 디스크립터의 의존성까지 포함한다. 애플리케이션 디스크립터와 유사하게, 카트리지 디스크립터는 카트리지에 정의된 컴포넌트와 기능을 지원한다.
 > 애플리케이션과 카트리지 디스크립터를 사용하면, 브로커는 함께사용할 컴포넌트를 조직하고 사용할 기어들을 결정한다. 
-******
+
+*****
 
 ## Logical views
 ![Logical views](https://www.openshift.com/sites/default/files/images/architecture_overview.png)
@@ -127,6 +128,7 @@ About Openshift
 
 ### Proxy ports
 ![](https://www.openshift.com/sites/default/files/images/port_proxy.png)
+
 > 프록시 포트는 로드 밸런싱 혹은 애플리케이션 기어의 관계된 서비스를 제공하는 목적의 내부 서비스를 노출시킨다.
 > 각 기어는 5개의 프록시 포트를 사용가능하다. 독립된 노드에 기어가 존재한다면 우회하는 주소를 제공한다. 
 > 프록시 포트는 HAProxy는 시스템 서비스를 실행하고 TCP 커넥션 프록시 설정이 가능하다. HAProxy 카트리지는 웹 로드 밸런싱 서비스를 제공한다. 조만간 애플리케이션 디스크립터의 기술된 TCP 커넥션의 사용을 근간으로 하는 메커니즘을 사용가능해질 것이다.
@@ -191,7 +193,7 @@ About Openshift
 * Group Override : 관련없는 카트리지를 동일한 기어에서 그룹화하여 사용함. 이 컴포넌트들은 함께 확장됨
 * Gear : 컴포넌트가 실행되는 CPU, 메모리, 디스크 유닛(AWS의 인스턴스?)
 
-#### Simple desciptor
+#### Simple descriptor
 ```
 Name: myapp
 Version: 1.0
@@ -310,6 +312,7 @@ Group override:
 
 ### 배포 순서
 1. codenvy.org 로그인
+![](./images/codenvy_process_01.png)
 2. create a new project from scratch 
 3. openshift 선택
 4. 배포
