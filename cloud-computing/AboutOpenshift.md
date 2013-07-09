@@ -312,7 +312,12 @@ Group override:
 
 ### 배포 순서
 1. codenvy.org 로그인
+
 ![](./images/codenvy_process_01.png)
+
 2. create a new project from scratch 
+
+![](./images/codenvy_process_02.png)
+
 3. openshift 선택
 4. 배포
