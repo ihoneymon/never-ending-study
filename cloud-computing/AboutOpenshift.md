@@ -311,13 +311,9 @@ Group override:
 ![배포, 복제와 확장을 컨트롤한다!](./images/codenvy_feature_03.png)
 
 ### 배포 순서
-1. codenvy.org 로그인
-
-![](./images/codenvy_process_01.png)
-
-2. create a new project from scratch 
-
-![](./images/codenvy_process_02.png)
-
-3. openshift 선택
+1. codenvy.org 로그인<br/>
+![](./images/codenvy_process_01.png)<br/>
+2. create a new project from scratch<br/> 
+![](./images/codenvy_process_02.png)<br/>
+3. openshift 선택<br/>
 4. 배포
