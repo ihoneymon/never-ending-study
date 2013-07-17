@@ -7,59 +7,59 @@ Design Pattern
 
 ## Creational Patterns
 
-### Singleton
+### [Singleton](./creational-patterns/singleton.md)
 
-### Factory
+### [Factory](./creational-patterns/factory.md)
 
-### Factory Method
+### [Factory Method](./creational-patterns/factory-method.md)
 
-### Abstract Factory
+### [Abstract Factory](./creational-patterns/abstract-factory.md)
 
-### Builder
+### [Builder](./creational-patterns/builder.md)
 
-### Prototype
+### [Prototype](./creational-patterns/prototype.md)
 
-### Object Pool
+### [Object Pool](./creational-patterns/object-pool.md)
 
 ****
 
 ## Behavioral Patterns
 
-### Chain of Reponsibility
+### [Chain of Reponsibility](./behavioral-patterns/chain-of-responsiblity.md)
 
-### Command
+### [Command](./behavioral-patterns/command.md)
 
-### Interpreter
+### [Interpreter](./behavioral-patterns/interpreter.md)
 
-### Iterator
+### [Iterator](./behavioral-patterns/iterator.md)
 
-### Memento
+### [Memento](./behavioral-patterns/memento.md)
 
-### Observer
+### [Observer](./behavioral-patterns/observer.md)
 
-### Strategy
+### [Strategy](./behavioral-patterns/strategy.md)
 
-### Template Method
+### [Template Method](./behavioral-patterns/template-method.md)
 
-### Visitor
+### [Visitor](./behavioral-patterns/visitor.md)
 
-### Null Object
+### [Null Object](./behavioral-patterns/null-object.md)
 
 ****
 
 ## Structural Patterns
 
-### Adapter
+### [Adapter](./structural-patterns/adapter.md)
 
-### Bridge
+### [Bridge](./structural-patterns/bridge.md)
 
-### Composite
+### [Composite](./structural-patterns/composite.md)
 
-### Decorator
+### [Decorator](./structural-patterns/decorator.md)
 
-### Flyweight
+### [Flyweight](./structural-patterns/flyweight.md)
 
-### Proxy
+### [Proxy](./structural-patterns/proxy.md)
 
 ****
 
